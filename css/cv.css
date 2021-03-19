@@ -1,10 +1,14 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
+    background-color: azure;
 }
+
 table, tr, td {
-    border: 2px dotted red;
-    border-collapse: collapse;
+    border: 2px dotted rgb(116, 167, 233);
+    /*border-collapse: collapse;*/
+    margin: 2px;
+    padding: 15px;
 }
 table {
     width:100%;
@@ -16,6 +20,21 @@ p {
 #phone {
     font-size: 1.5em;
 }
-h1 h2 {
-    color: blueviolet;
+h1, h2 {
+    color: rgb(48, 35, 68);
+}
+
+.title {
+    font-style:italic;
+}
+
+.date {
+    font-weight: bold;
+}
+
+address{
+    font-size: 1.5em;
+}
+div p { /*the p tags that are within divs */
+    color:rgb(103, 180, 26);
 }

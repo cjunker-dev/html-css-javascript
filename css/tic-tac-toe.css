@@ -1,0 +1,17 @@
+table, td {
+    border: black 2px solid;
+    width: 60%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: rgb(189, 235, 236);
+    
+}
+
+td {
+    text-align:center;
+    width:25%;
+
+}
+body {
+    font-size: 76pt;
+}
