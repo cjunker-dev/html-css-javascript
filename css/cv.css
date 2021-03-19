@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+table, tr, td {
+    border: 2px dotted red;
+    border-collapse: collapse;
+}
+table {
+    width:100%;
+}
+p {
+    color:blue;
+}
+
+#phone {
+    font-size: 1.5em;
+}
+h1 h2 {
+    color: blueviolet;
+}
