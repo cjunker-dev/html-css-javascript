@@ -7,7 +7,7 @@ function plus_click(){
 
 }
 
-function minus_click(){
+const minus_click = () =>{
     number--;
     display(number);
 }
