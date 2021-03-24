@@ -1,37 +1,27 @@
 let number = 0;
-
+// gen 2 funcion: let increment = function(){}
+//gen 3 function: const decrement = () => {}
 function plus_click(){
     number++;
-    let output = document.getElementById("field");
-    output.value = number;
-    style_number();
+    display(number);
+
 }
 
 function minus_click(){
     number--;
+    display(number);
+}
+const display = () =>{
     let output = document.getElementById("field");
     output.value = number;
-    style_number();
+    style_number(number);
 }
 
-function style_number(){
+function style_number(nbr){
     let output = document.getElementById("field");
-    if (output.value % 2 == 0){
-        output.style.color = "red";
-    }
-    else {
-        output.style.color = "black";
-    }
-    if (output.value % 3 == 0){
-        output.style.fontWeight = "bold";
-    }
-    else {
-        output.style.fontWeight = "normal";
-    }
-    if (output.value % 5 == 0){
-        output.style.fontStyle = "italic";
-    }
-    else {
-        output.style.fontweight = "normal";
-    }
+    output.value = nbr;
+    output.style.color = (nbr % 2 == 0) ? "red" : "black";
+    output.style.fontWeight = (nbr % 3 == 0) ? "bold" : "normal";
+    output.style.fontStyle = (nbr % 5 == 0) ? "italic" : "normal";
+
 }

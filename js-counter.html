@@ -9,9 +9,9 @@
     <script src="js/js-counter.js"></script>
     <title>Document</title>
 </head>
-<body>
-    <div onclick="minus_click()" id="minus" class="btn btn-primary">-</div>
-    <input value="0" id="field">
-    <div onclick="plus_click()" id="plus" class="btn btn-primary">+</div>
+<body onload="style_number(0)">
+    <button onclick="minus_click()" id="minus" class="btn btn-primary">-</button>
+    <input id="field" type="text" disabled>
+    <button onclick="plus_click()" id="plus" class="btn btn-primary">+</button>
 </body>
 </html>
